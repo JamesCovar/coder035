@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body{
+    background-color: #E7E5DB;
+}
+
+ul{
+    text-align: right;
+    margin-right: 80px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+a:link{
+    color:black;
+    text-decoration: none;
+}
+
+.container{
+    margin: 60px 100px 0px 100px;
+}
+
+.wrapper{
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
+
+}
+
+.col-6{
+    display:inline-block;
+    vertical-align:middle;
+    width: 49%;
+}
+
+.col-4{
+    display: inline-block;
+    width: 33%;
+}
+
+.col-3{
+    display:block;
+    max-width: 25%;
+}
+
+
+/* Images */
+.principalImgPost{
+    max-width: 100%;
+    border-radius: 7px;
+}
+
+.cover{
+    object-fit: cover;
+    width: 350px;
+    border-radius: 7px;
+}
+
+/* Hyperlinks & Butons */
+.buttonRedirect{
+    margin-top: 20px;
+    background-color: #FAFAFA;
+    padding: 10px;
+    max-width: auto;
+    max-width: 100px;
+}
+
+.buttonRedirect a {
+    color:black;
+    text-decoration: none;
+}
+
+
+
+/* Text & Fonts */
+h1{
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+
+h3{
+    font-size: 3rem;
+
+}
+
+p{
+    font-size: 1rem;
+}
+
+/* Form */
+label{
+    font-size: 1.3rem;
+}
+
+input{
+    width: 400px;
+    height: 25px;
+}
+
+/* Layout */
+/* Margin */
+.marginLeft-1{
+    margin-left: 1rem;
+}
+
+.marginLeft-2{
+    margin-left: 2rem;
+}
+
+.marginTop-1{
+    margin-top: 1rem;
+}
+
+.marginTop-4{
+    margin-top: 4rem;
+}
+
